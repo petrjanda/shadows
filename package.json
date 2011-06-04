@@ -11,6 +11,9 @@
   "engines": {
     "node": "v0.4.2"
   },
-  "dependencies": {},
+  "dependencies": {
+    "redis": "x.x.x",
+    "hiredis": "x.x.x"
+  },
   "devDependencies": {}
 }

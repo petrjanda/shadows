@@ -1,2 +1,3 @@
 bin/redis-cli
 bin/redis-server
+node_modules
