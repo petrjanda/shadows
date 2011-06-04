@@ -1,0 +1,15 @@
+{
+  "author": "Petr Janda <petrjanda@me.com> (http://www.twitter.com/petrjanda)",
+  "name": "answers",
+  "description": "Simple experimental HTTP proxy with cache on top of node.js and redis.",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/petrjanda/answers.git"
+  },
+  "engines": {
+    "node": "v0.4.2"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
