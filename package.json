@@ -1,19 +1,16 @@
 {
   "author": "Petr Janda <petrjanda@me.com> (http://www.twitter.com/petrjanda)",
-  "name": "answers",
+  "name": "shadows",
   "description": "Simple experimental HTTP proxy with cache on top of node.js and redis.",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "git://github.com/petrjanda/answers.git"
+    "url": "git://github.com/petrjanda/shadows.git"
   },
-  "main": "lib/answers.js",
+  "main": "lib/shadows.js",
   "engines": {
     "node": "v0.4.2"
   },
-  "dependencies": {
-    "redis": "x.x.x",
-    "hiredis": "x.x.x"
-  },
+  "dependencies": {},
   "devDependencies": {}
 }
