@@ -27,6 +27,26 @@ module.exports = {
     cache.set('key', 'value');
     cache.get('key');
     cache.stats.hits.should.equal(1);
-  }
+  },
+  
+  respondHit: function() {
+    var cache = new Cache();
+    cache.set('href', 'value');
+    cache.respond({href: 'href'}, {
+      writeHead: function() {},
+      write: function() {},
+      end: function() {}
+    }).should.equal(true);
+  },
+  
+  respondFail: function() {
+    var cache = new Cache();
+    cache.set('href', 'value');
+    cache.respond({href: 'hre'}, {
+      writeHead: function() {},
+      write: function() {},
+      end: function() {}
+    }).should.equal(false);
+  }  
   
 }
