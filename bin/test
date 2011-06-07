@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+
+var options = {
+	routes: {
+		'localhost:8000': '127.0.0.1:3000/'
+	}
+};
+
+var Shadows = require('../lib/shadows');
+var shadows = new Shadows(options);
